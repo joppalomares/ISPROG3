@@ -9,6 +9,7 @@ namespace IS_Attendance_Machine_Project
 {
     public class Businesslogic
     {
+        //to access DAT tier
         DAT dataAccess = new DAT();
         public static string ConnString = @"Data Source=JOP-PC\SQLEXPRESS;Initial Catalog=ISAttandaceManagementSystem;Integrated Security=SSPI";
         #region Properties
